@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page Title</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+      
+        .container{
+            max-width: 1140px;
+            height:500px;
+            margin-left:auto;
+            margin-right:auto;
+            display:flex;
+            flex-direction:row;
+            background-color:cornflowerblue;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box{
+            width:200px;
+            height:200px;
+            background-color: deeppink;
+            margin:16px;
+            text-align:center;
+        }
+
+        .jump{
+            align-self: flex-end
+            
+        }
+      
+      
+    </style>
+
+  </head>
+  <body>
+      <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box jump">3</div>
+        <div class="box">4</div>
+    </div>
+  </body>
+</html>
+
+<!-------------------------A flexbox is an html element with a CSS display:flex.
+
+The direct children of this element, called flex items, are arranged in a row (horizontally) or in a column (vertically), depending on the value of the CSS flex-direction property.
+
+There are several CSS properties available to align, or distribute, the flex items inside the flexbox. Three of these properties are:
+
+    justify-content: defines the alignment along the main axis (the flex direction).
+    align-items: defines how flex items are laid out along the cross axis on the current line (the line perpendicular to the flex direction)
+    align-self: allows the default alignment (or the one specified by align-items) to be overridden for individual flex items.
+
+Read about these and other flex properties in Flexbox or chapter 16 of your textbook. Or here.
+Your task
+
+In this html/css file, the div with the class container is set as a flexbox. The flex direction is row so all of its direct children are arranged horizontally.
+
+Add to the CSS of this file as follows:
+
+    Use the property justify-contentto distribute the flex items evenly in the line (without changing their size) .
+    Use the property align-items to center the row of boxes in the flexbox.
+    Use the property align-selfto bring the box with the jump class to the bottom of the flexbox.
+    Each of the above requires just one additional line of CSS.
+
+The end result should look like this:
+https://openlab.bmcc.cuny.edu/mmp240-sp20/2020/04/03/quiz-3/  ------------->
+
+
