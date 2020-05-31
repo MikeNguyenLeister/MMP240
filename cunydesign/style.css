@@ -1,0 +1,425 @@
+/*
+
+COLOR PALETTE
+#f76c6c - salmon red-orange
+#a8d0e6 - sky blue
+#f8e9a1 - construction paper yellow
+#374785 - prussian blue with red & white tint
+#24305e - prussian blue
+#fff - white
+#ce4248 - orange red construction paper
+
+FONT FAMILIES
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/*#main-menu li{
+    padding: 6px;
+    border-bottom: solid 1px #000;
+}
+
+.menu-bar ul{
+    list-style-type: none;
+}
+
+nav{
+    text-align:right;
+
+}
+
+.menu-bar{
+    width: 150px;
+    background-color: #fff;
+    border: solid 1px #000;
+    position: absolute;
+    right:16px;
+}
+
+.search-input{
+    width:55%;
+    padding:3px;
+    border: solid 1px #ccc;
+}
+
+search{
+    padding: 6px;
+}
+.search-submit{
+    width: 35%;
+    padding:3px;
+    border: solid 1px #ccc;
+}
+
+.dropdown li{
+    border:none;
+} */
+
+
+
+body{
+    background-color:#fff;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.logo{
+    width: 250px;
+    height: 150px;
+    display: block;
+    position: absolute;
+    left: 15px;
+    top: 55px;
+    margin: 0;
+}
+
+.search{
+    position: absolute;
+    right: 11px;
+    top: 169px;
+}
+
+/* Background image from https://www.w3schools.com/css/css_background_repeat.asp */
+
+.banner {
+    padding: 0;
+    margin: 0;
+    display: block;
+    /*background-image: url(images/spacetexture.jpg);   
+    background-repeat: no-repeat;
+    background-size:cover;*/
+    background-color: #a8d0e6;
+    position: relative;
+    height:192px;
+    width: 100%;
+    
+}
+
+/*.banner a{
+    display: inline-block;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #f76c6c;
+    background-color: #374785;
+    width: 356px;
+    text-align: center;
+    padding: 4px;
+    height: 42px;
+    position: absolute;
+    top: 192px;
+    left: 17px;
+    line-height: 2;
+} 
+
+.banner a:hover{
+    background-color: #f76c6c;
+    color: #f8e9a1; 
+} */
+
+
+.fluid-image{
+    max-width: 100%;
+    max-height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 0px;
+}
+
+#banner-container, #footer-container{
+    padding: 0;
+    max-width: 966px;
+    margin: 0 auto;
+    position: relative;
+    padding 15px;
+    left: -15px;
+}
+.container {
+    margin-top: 0;
+    padding-top: 0;
+    /*padding: 20px; */
+    max-width: 966px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif; 
+    color: #24305e;
+    /* border: 2px solid #000; */
+    display: block;
+    font-size: 16px;
+    line-height: 22px;
+    background-color: #fff; 
+    padding-bottom: 0;
+}
+
+.title{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2em;
+    line-height: 1.75em;
+    font-weight: 600;
+    color: #f76c6c;
+}
+
+.subtitle{
+    font-size: 1.2em;
+    line-height: 1.8em;
+    font-weight: 600;
+    
+}
+    
+
+.page-footer {
+    padding: 20px;
+    margin: 0 auto;
+    width: 100%;
+    /*border: 2px solid #000; */
+    display: block;
+    font-size: 10px;
+    line-height: 12px;
+    background-color: #374785 ;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: left;
+    position: relative;
+    color: #f8e9a1;
+    
+    
+}
+
+hr.line {
+    padding-top: 2px solid #f8e9a1; 
+    width: 100%;
+    top: 10px;
+    display: block;
+    
+}
+
+
+/*nav bar */
+
+    
+
+
+
+
+/* button - https://www.w3schools.com/css/css3_buttons.asp */
+
+.button {
+  background-color: white; 
+  color: f76c6c; 
+  border: 2px solid #f76c6c;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  width: 150px;
+  border-radius: 4px;
+  margin-bottom: 0;
+}
+
+.button:hover {
+  background-color: #f76c6c;
+  color: white;
+}
+
+.button, a{
+    color:#f76c6c;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    color: #f76c6c;
+    font-size: 1.15em;
+    font-weight: 400;
+}
+
+@media(max-width:767px){
+
+.logo{
+width: 200px;
+height: 100px;
+display: block;
+position: absolute;
+left: 15px;
+top: 93px;
+margin: 0;
+ 
+    }
+
+
+
+
+    
+
+    #main-nav a{
+    color: #f76c6c;
+    background: #374785;
+    display: block;
+    height: 50px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    align-items: right;
+    top: 20px;   
+    width: 100%;
+    
+    
+    
+ 
+}
+
+nav{
+   
+    font-family: 'Merriweather Sans', sans-serif;
+    display: block;
+    float: center;
+    background: #374785;
+    width: 100%;
+    
+  
+}
+
+#main-nav a:hover {
+    background: #f76c6c;
+    color: #f8e9a1;
+
+}
+h1:hover{
+        color: #f8e9a1;
+  
+}
+
+#main-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100%;
+    width: 100%;
+        
+}
+
+#main-nav li{
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    
+}
+
+#main-nav li:hover .dropdown > li{
+    display: block;
+    top: 0px;
+    width: 100%;
+
+}
+
+.dropdown li{
+    display: none;
+    top: 0px;
+    width: 100%;
+    
+}
+
+.dropdown{
+    display: flex;  
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    right: 1px;
+
+  
+    }
+}
+
+
+  
+
+
+@media(min-width:768px){
+        
+    .menu-button{
+    display:none;
+    
+    }
+    
+    #main-nav a{
+    color: #f76c6c;
+    background: #374785;
+    display: block;
+    height: 60px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    align-items: center;
+    width: 241px;  
+    margin-bottom: 0px; 
+    
+ 
+}
+
+nav{
+   
+    font-family: 'Merriweather Sans', sans-serif;
+    margin:0;
+    padding:0;
+    display: block;
+    float: right;
+  
+}
+
+#main-nav a:hover {
+    background: #f76c6c;
+    color: #f8e9a1;
+
+}
+h1:hover{
+        color: #f8e9a1;
+  
+}
+
+#main-nav ul {
+    list-style: none;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#main-nav li{
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    
+}
+
+#main-nav li:hover .dropdown > li{
+    display: block;
+    top: 0px;
+
+}
+
+.dropdown li{
+    display: none;
+    position: absolute;
+    top: 0px;
+    
+}
+
+.dropdown{
+    display: flex;  
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    right: 1px;
+
+  
+    }
+    
